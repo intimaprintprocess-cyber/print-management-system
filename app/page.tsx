@@ -7,17 +7,21 @@ export default function Home() {
 
       <table className="border-collapse border">
         <thead>
-          <tr>
-            <th className="border p-2">OD No</th>
-            <th className="border p-2">Party Name</th>
-          </tr>
-        </thead>
+  <tr>
+    <th className="border p-2">OD No</th>
+    <th className="border p-2">Party Name</th>
+    <th className="border p-2">City</th>
+    <th className="border p-2">Product</th>
+  </tr>
+</thead>
         <tbody>
-          <tr>
-            <td className="border p-2">1001</td>
-            <td className="border p-2">Intima Decor</td>
-          </tr>
-        </tbody>
+  <tr>
+    <td className="border p-2">1001</td>
+    <td className="border p-2">Intima Decor</td>
+    <td className="border p-2">Rajkot</td>
+    <td className="border p-2">Wallpaper</td>
+  </tr>
+</tbody>
       </table>
     </div>
   );
